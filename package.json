@@ -1,0 +1,23 @@
+{
+  "name": "@artemis-prime/axios-helper",
+  "version": "1.0.0",
+  "description": "Light axios wrapper that insures a single instance and encapsulates auth tokens in the header.",
+  "main": "index.js",
+  "scripts": {
+    "_start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artemis-prime/axios-helper.git"
+  },
+  "author": "artemis-prime",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/artemis-prime/axios-helper/issues"
+  },
+  "homepage": "https://github.com/artemis-prime/axios-helper#readme",
+  "dependencies": {
+    "@artemis-prime/logger": "^1.0.2",
+    "axios": "^0.16.2"
+  }
+}
